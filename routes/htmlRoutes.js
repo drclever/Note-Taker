@@ -1,7 +1,7 @@
 // Dependencies
 const path = require("path");
 
-module.exports = function(app, appPublic){
+module.exports = function(app){
 
     // Route to go to index page
     app.get("/", function(req, res){
