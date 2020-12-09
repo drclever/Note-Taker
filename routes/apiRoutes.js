@@ -47,7 +47,7 @@ module.exports = function(app){
         for (i=0; i < notesData.length; i++){
            
             if (notesData[i].id == id){
-                console.log(`Deleting note with id ${noteId}`);
+                console.log(`Deleting note with id ${id}`);
                 // responds with deleted note
                 res.send(notesData[i]);
 
